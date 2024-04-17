@@ -45,3 +45,19 @@ function handleDashboardClick() {
     // Add functionality here
     window.location.href = "index.html"; // Redirect to a help page
 }
+
+
+
+// Select the Customer section list item
+let CustomerSection = document.querySelector(".navigation li:nth-child(3)"); // Assuming it's the 5th list item
+
+// Add an event listener to the help section
+CustomerSection.addEventListener("click", handleCustomerClick);
+
+// Function to handle click on the help section
+function handleCustomerClick() {
+    // Add functionality here
+    window.location.href = "customers.html"; // Redirect to a help page
+}
+
+
